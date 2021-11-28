@@ -49,6 +49,9 @@ a {
 }
 
 /* HEADER */
+.header-accent {
+   color: var(--main-color);
+}
 
 .logo-link {
    font-family: Raleway;
@@ -81,6 +84,7 @@ a {
    letter-spacing: 0.02em;
    color: var(--primary-text-color);
 }
+
 .header-contact-item .link:hover,
 .header-contact-item .link:focus {
    line-height: 1.15;
@@ -107,6 +111,7 @@ a {
 
 .hero-button {
    padding: 10px 32px;
+   font-weight: 700;
    line-height: 1.85;
    color: var(--white-color);
    background-color: var(--main-color);
