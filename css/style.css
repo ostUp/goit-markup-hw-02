@@ -13,7 +13,9 @@ body {
    color: var(--black-color);
    font-size: 14px;
    font-weight: 500;
-   font-family: "Roboto" sans-serif;
+   font-family: "Roboto"sans-serif;
+   background-color: var(--white-color);
+   line-height: normal;
 }
 
 a {
@@ -53,25 +55,18 @@ a {
    font-style: normal;
    font-weight: bold;
    font-size: 26px;
-   line-height: 31px;
+   line-height: 1.15;
    color: var(--black-color);
 }
 
 .logo-web {
    color: var(--main-color);
    font-size: 26px;
-   line-height: 31px;
 }
 
-.header-nav-list-item {
-   /* font-family: Roboto; */
-   line-height: 16px;
-   letter-spacing: 0.02em;
-   color: var(--black-color);
-}
-
+.header-nav-list-item,
 .link {
-   line-height: 16px;
+   line-height: 1.15;
    letter-spacing: 0.02em;
    color: var(--black-color);
 }
@@ -82,7 +77,7 @@ a {
 }
 
 .header-contact-item {
-   line-height: 16px;
+   line-height: 1.15;
    letter-spacing: 0.02em;
    color: var(--primary-text-color);
 }
@@ -96,7 +91,7 @@ a {
 .hero-heading {
    font-weight: 900;
    font-size: 44px;
-   line-height: 60px;
+   line-height: 1.35;
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
@@ -105,6 +100,7 @@ a {
 
 .hero-button {
    padding: 10px 32px;
+   line-height: 1.85;
    color: var(--white-color);
    background-color: var(--main-color);
 }
@@ -112,13 +108,13 @@ a {
 /* ADVANTAGES */
 
 .advantages-item-heading {
-   line-height: 16px;
+   line-height: 1.15;
    letter-spacing: 0.03em;
    text-transform: uppercase;
 }
 
 .advantages-item-paragraph {
-   line-height: 24px;
+   line-height: 1.15;
    letter-spacing: 0.03em;
    color: var(--grey-text);
 }
@@ -131,6 +127,7 @@ a {
    text-align: center;
    letter-spacing: 0.03em;
 }
+
 .what-we-do-img {
    width: 370px;
    height: 294px;
@@ -140,35 +137,37 @@ a {
 
 .our-team-heading {
    font-size: 36px;
-   line-height: 42px;
-   text-align: center;
-   letter-spacing: 0.03em;
-   color: var(--black-color);
-}
-.our-team-item-img {
-   width: 270px;
-   height: 260px;
-}
-.our-team-item-description-heading,.our-team-item-paragraph {
-   font-size: 16px;
-   line-height: 19px;
+   line-height: 1.2;
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--black-color);
 }
 
+.our-team-item-img {
+   width: 270px;
+   height: 260px;
+}
+
+.our-team-item-description-heading,
+.our-team-item-paragraph {
+   font-size: 16px;
+   line-height: 1.2;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: var(--black-color);
+}
 
 /* footer */
 .footer {
    background-color: var(--black-bg-color);
 }
 
-.footer > .container > .logo-link {
+.footer>.container>.logo-link {
    color: var(--white-color);
 }
 
 .footer-address-link {
-   line-height: 24px;
+   line-height: 1.7;
    letter-spacing: 0.03em;
    font-style: normal;
    color: var(--alpha-white-color);
@@ -186,25 +185,26 @@ a {
 /* portfolio-cards-list */
 
 .portfolio-cards-list-item {
-   /* display: inline-block; */
    background-color: var(--white-color);
    border: 1px solid var(--outline-border);
    box-sizing: border-box;
 }
+
 .potrfolio-cards-item-img {
    width: 370px;
    height: 294px;
 }
+
 .portfolio-cards-item-heading {
    font-size: 18px;
-   line-height: 36px;
+   line-height: 2;
    color: var(--black-color);
    letter-spacing: 0.06em;
 }
 
 .portfolio-cards-item-paragraph {
    font-size: 16px;
-   line-height: 30px;
+   line-height: 2;
    color: var(--primary-text-color);
    letter-spacing: 0.03em;
 }
