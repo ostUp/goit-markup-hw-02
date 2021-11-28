@@ -82,7 +82,6 @@ a {
 }
 
 .header-contact-item {
-   /* font-family: 'Roboto'; */
    line-height: 16px;
    letter-spacing: 0.02em;
    color: var(--primary-text-color);
@@ -132,6 +131,10 @@ a {
    text-align: center;
    letter-spacing: 0.03em;
 }
+.what-we-do-img {
+   width: 370px;
+   height: 294px;
+}
 
 /* OUR TEAM */
 
@@ -142,8 +145,11 @@ a {
    letter-spacing: 0.03em;
    color: var(--black-color);
 }
-
-.our-team-item-description-heading {
+.our-team-item-img {
+   width: 270px;
+   height: 260px;
+}
+.our-team-item-description-heading,.our-team-item-paragraph {
    font-size: 16px;
    line-height: 19px;
    text-align: center;
@@ -151,13 +157,6 @@ a {
    color: var(--black-color);
 }
 
-.our-team-item-paragraph {
-   font-size: 16px;
-   line-height: 19px;
-   text-align: center;
-   letter-spacing: 0.03em;
-   color: var(--black-color);
-}
 
 /* footer */
 .footer {
@@ -192,16 +191,20 @@ a {
    border: 1px solid var(--outline-border);
    box-sizing: border-box;
 }
-
+.potrfolio-cards-item-img {
+   width: 370px;
+   height: 294px;
+}
 .portfolio-cards-item-heading {
    font-size: 18px;
    line-height: 36px;
    color: var(--black-color);
    letter-spacing: 0.06em;
 }
+
 .portfolio-cards-item-paragraph {
    font-size: 16px;
    line-height: 30px;
-   color: var(--grey-color);
+   color: var(--primary-text-color);
    letter-spacing: 0.03em;
 }
