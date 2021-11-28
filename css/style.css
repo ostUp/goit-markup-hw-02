@@ -128,10 +128,6 @@ a {
    letter-spacing: 0.03em;
 }
 
-.what-we-do-img {
-   width: 370px;
-   height: 294px;
-}
 
 /* OUR TEAM */
 
@@ -145,7 +141,6 @@ a {
 
 .our-team-item-img {
    width: 270px;
-   height: 260px;
 }
 
 .our-team-item-description-heading,
@@ -192,7 +187,6 @@ a {
 
 .potrfolio-cards-item-img {
    width: 370px;
-   height: 294px;
 }
 
 .portfolio-cards-item-heading {
